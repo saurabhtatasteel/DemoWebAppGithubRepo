@@ -22,7 +22,7 @@ namespace DemoWebApp.Controllers
 
 		public ActionResult Contact()
 		{
-			ViewBag.Message = "Your contact page.";
+			ViewBag.Message = "Your contact page being checked in to R1.0 branch which is a child branch of master branch ";
 
 			return View();
 		}

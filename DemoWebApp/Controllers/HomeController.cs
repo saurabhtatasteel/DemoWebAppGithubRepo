@@ -22,7 +22,7 @@ namespace DemoWebApp.Controllers
 
 		public ActionResult Contact()
 		{
-			ViewBag.Message = "Your contact page added from R1.0 version.";
+			ViewBag.Message = "Contact page changed from Visual Studio for Continuous Integration demo";
 
 			return View();
 		}

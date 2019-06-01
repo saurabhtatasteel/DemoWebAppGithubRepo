@@ -22,7 +22,7 @@ namespace DemoWebApp.Controllers
 
 		public ActionResult Contact()
 		{
-			ViewBag.Message = "Contact page changed from Visual Studio for queuing on 1st June";
+			ViewBag.Message = "Contact page changed from Visual Studio for queuing with CI on 1st June";
 
 			return View();
 		}
